@@ -1,5 +1,14 @@
 {
   "current": {
+    "colors_accent_1": "#7bc681",
+    "colors_accent_2": "#91daf0",
+    "colors_text": "#2e434a",
+    "colors_outline_button_labels": "#7bc681",
+    "colors_background_2": "#f4f1e6",
+    "type_body_font": "montserrat_n4",
+    "sold_out_badge_color_scheme": "background-1",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
+    "checkout_logo_size": "small",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

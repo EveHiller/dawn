@@ -2,9 +2,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -24,37 +22,56 @@
       "block_order": [
         "heading",
         "button"
-      ]
+      ],
+      "settings": {
+        "desktop_text_box_position": "flex-end"
+      }
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products"
       }
     },
     "image_text": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "heading": {
-          "type": "heading"
+          "type": "heading",
+          "settings": {
+          }
         },
         "text": {
-          "type": "text"
+          "type": "text",
+          "settings": {
+          }
         },
         "button": {
-          "type": "button"
+          "type": "button",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "heading",
         "text",
         "button"
-      ]
+      ],
+      "settings": {
+      }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home-section",
+      "settings": {
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "pagefly-home"
   ]
 }

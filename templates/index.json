@@ -63,7 +63,7 @@
       }
     },
     "pagefly-home": {
-      "type": "pagefly-home-section",
+      "type": "pagefly-home",
       "settings": {
       }
     }
